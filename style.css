@@ -1,81 +1,101 @@
+
 body{
   margin:0;
-  font-family:Arial, sans-serif;
-  background:#f3f4f6;
-  color:#111827;
+  background:#111827;
+  font-family:Arial;
+  color:white;
 }
 
-header{
+.app{
+  padding:20px;
+}
+
+.topbar{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:20px;
-  background:white;
-  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+  margin-bottom:20px;
 }
 
-h1{
-  margin:0;
-}
-
-.login-btn{
-  background:#2563eb;
-  color:white;
-  border:none;
+.badge{
+  background:#16a34a;
   padding:10px 18px;
-  border-radius:10px;
-  cursor:pointer;
+  border-radius:12px;
+  font-weight:bold;
 }
 
-.cards{
+.info{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   gap:20px;
-  padding:20px;
+  margin-bottom:20px;
 }
 
 .card{
-  background:white;
+  background:#1f2937;
   padding:20px;
   border-radius:18px;
-  box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
-.table-section,
-.news,
-.chart{
-  padding:20px;
+.card p{
+  font-size:28px;
+  font-weight:bold;
+}
+
+.chain{
+  overflow:auto;
+  margin-bottom:20px;
 }
 
 table{
   width:100%;
   border-collapse:collapse;
-  background:white;
+  background:#1f2937;
   border-radius:18px;
   overflow:hidden;
-  box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
 th,td{
   padding:16px;
-  text-align:left;
-  border-bottom:1px solid #e5e7eb;
+  text-align:center;
+  border-bottom:1px solid #374151;
 }
 
-.green{
-  color:#16a34a;
-  font-weight:bold;
+.redbg{
+  background:#dc2626;
+}
+
+.greenbg{
+  background:#16a34a;
+}
+
+.bluebg{
+  background:#2563eb;
 }
 
 .red{
-  color:#dc2626;
-  font-weight:bold;
+  background:#7f1d1d;
 }
 
-.news-card{
-  background:white;
-  padding:18px;
-  margin-top:12px;
-  border-radius:16px;
-  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+.orange{
+  background:#ea580c;
+}
+
+.green{
+  background:#166534;
+}
+
+.lightgreen{
+  background:#65a30d;
+}
+
+.strike{
+  font-weight:bold;
+  background:#111827;
+}
+
+.chart{
+  background:#1f2937;
+  padding:10px;
+  border-radius:18px;
 }

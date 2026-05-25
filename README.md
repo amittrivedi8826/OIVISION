@@ -1,12 +1,14 @@
-# OI Market Dashboard
 
-## Upload Steps
+# OI Vision Pro
 
-1. GitHub repository banao
-2. Is folder ki saari files upload karo
-3. Vercel par deploy karo
+## Deploy
 
-## Files
-- index.html
-- style.css
-- script.js
+1. Extract ZIP
+2. Upload to GitHub
+3. Import in Vercel
+4. Click Deploy
+
+## Commands
+
+npm install
+npm run dev
