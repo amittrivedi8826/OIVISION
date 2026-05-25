@@ -1,90 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OI Market Dashboard</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-  <h1>Live OI Market Dashboard</h1>
-  <button class="login-btn">Login</button>
-</header>
-
-<section class="cards">
-  <div class="card">
-    <h2>Daily OI</h2>
-    <p>CALL OI: <span class="green">1,25,000</span></p>
-    <p>PUT OI: <span class="red">98,000</span></p>
-  </div>
-
-  <div class="card">
-    <h2>Weekly OI</h2>
-    <p>CALL OI: <span class="green">5,85,000</span></p>
-    <p>PUT OI: <span class="red">4,62,000</span></p>
-  </div>
-</section>
-
-<section class="table-section">
-  <h2>High OI Movers</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Stock</th>
-        <th>OI Change</th>
-        <th>Price Move</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>RELIANCE</td>
-        <td class="green">+22%</td>
-        <td class="green">+3.4%</td>
-      </tr>
-
-      <tr>
-        <td>HDFCBANK</td>
-        <td class="green">+18%</td>
-        <td class="green">+2.1%</td>
-      </tr>
-
-      <tr>
-        <td>SBIN</td>
-        <td class="red">-12%</td>
-        <td class="red">-1.8%</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
-<section class="news">
-  <h2>Market News</h2>
-
-  <div class="news-card">
-    Reliance hits fresh breakout after strong buying interest.
-  </div>
-
-  <div class="news-card">
-    Banking stocks see heavy OI build-up in weekly expiry.
-  </div>
-</section>
-
-<section class="chart">
-  <h2>Live Chart</h2>
-
-  <iframe 
-    src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_chart&symbol=NSE:NIFTY&interval=5&theme=light"
-    width="100%"
-    height="500"
-    frameborder="0">
-  </iframe>
-</section>
-
-<script src="script.js"></script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OI Vision Pro</title>
+    <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
